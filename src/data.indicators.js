@@ -1,0 +1,125 @@
+/* 主要指标预报表（2027年度预算主要指标）—— 自动生成，勿手改
+   来源：D:\Desktop\副本附件：2027年度预算主要指标预报表.xlsx
+   生成脚本：正式模板/gen_indicators.py
+   列：项目 | 行次 | 预算数 | 预算完成数 | 差异 | 年初预算数 | 增长率(%) | 总经济预算数 | 增长率(%) | 备注
+*/
+window.MI = window.MI || {};
+(function () {
+  var T = {
+    id: 'IND',
+    name: '主要指标预报表',
+    code: '预算主要指标',
+    noFirst: false,
+    noCol: '行次',
+    cols: ['预算数','预算完成数','差异','年初预算数','增长率(%)','总经济预算数','增长率(%)','备注'],
+    lines: [
+    {c:"INDr6", n:"一、营业总收入", r:"1", lv:1, k:"main", f:null},
+    {c:"INDr7", n:"（一）营业收入", r:"2", lv:2, k:"sum", f:null},
+    {c:"INDr8", n:"其中：主营业务收入", r:"3", lv:3, k:"item", f:null},
+    {c:"INDr9", n:"其他业务收入", r:"4", lv:3, k:"item", f:null},
+    {c:"INDr10", n:"（二）△利息收入", r:"5", lv:2, k:"sum", f:null},
+    {c:"INDr11", n:"（三）△已赚保费", r:"6", lv:2, k:"sum", f:null},
+    {c:"INDr12", n:"（四）△手续费及佣金收入", r:"7", lv:2, k:"sum", f:null},
+    {c:"INDr13", n:"二、营业总成本", r:"8", lv:1, k:"main", f:null},
+    {c:"INDr14", n:"（一）营业成本", r:"9", lv:2, k:"sum", f:null},
+    {c:"INDr15", n:"其中：主营业务成本", r:"10", lv:3, k:"item", f:null},
+    {c:"INDr16", n:"其他业务成本", r:"11", lv:3, k:"item", f:null},
+    {c:"INDr17", n:"（二）△利息支出", r:"12", lv:2, k:"sum", f:null},
+    {c:"INDr18", n:"（三）△手续费及佣金支出", r:"13", lv:2, k:"sum", f:null},
+    {c:"INDr19", n:"（四）△退保金", r:"14", lv:2, k:"sum", f:null},
+    {c:"INDr20", n:"（五）△赔付支出净额", r:"15", lv:2, k:"sum", f:null},
+    {c:"INDr21", n:"（六）△提取保险责任准备金净额", r:"16", lv:2, k:"sum", f:null},
+    {c:"INDr22", n:"（七）△保单红利支出", r:"17", lv:2, k:"sum", f:null},
+    {c:"INDr23", n:"（八）△分保费用", r:"18", lv:2, k:"sum", f:null},
+    {c:"INDr24", n:"（九）税金及附加", r:"19", lv:2, k:"sum", f:null},
+    {c:"INDr25", n:"（十）销售费用", r:"20", lv:2, k:"sum", f:null},
+    {c:"INDr26", n:"（十一）管理费用", r:"21", lv:2, k:"sum", f:null},
+    {c:"INDr27", n:"（十二）研发费用", r:"22", lv:2, k:"sum", f:null},
+    {c:"INDr28", n:"（十三）财务费用", r:"23", lv:2, k:"sum", f:null},
+    {c:"INDr29", n:"其中：利息费用", r:"24", lv:3, k:"item", f:null},
+    {c:"INDr30", n:"利息收入", r:"25", lv:3, k:"item", f:null},
+    {c:"INDr31", n:"加：其他收益", r:"26", lv:3, k:"item", f:null},
+    {c:"INDr32", n:"投资收益（损失以“－”号填列）", r:"27", lv:3, k:"item", f:null},
+    {c:"INDr33", n:"△汇兑收益（损失以“-”号填列）", r:"28", lv:3, k:"item", f:null},
+    {c:"INDr34", n:"☆净敞口套期收益（损失以“-”号填列）", r:"29", lv:3, k:"item", f:null},
+    {c:"INDr35", n:"公允价值变动收益（损失以“-”号填列）", r:"30", lv:3, k:"item", f:null},
+    {c:"INDr36", n:"☆信用减值损失（损失以“-”号填列）", r:"31", lv:3, k:"item", f:null},
+    {c:"INDr37", n:"资产减值收益（损失以“-”号填列）", r:"32", lv:3, k:"item", f:null},
+    {c:"INDr38", n:"资产处置收益（损失以“-”号填列）", r:"33", lv:3, k:"item", f:null},
+    {c:"INDr39", n:"三、营业利润", r:"34", lv:1, k:"main", f:null},
+    {c:"INDr40", n:"加：营业外收入", r:"35", lv:3, k:"item", f:null},
+    {c:"INDr41", n:"减：营业外支出", r:"36", lv:3, k:"item", f:null},
+    {c:"INDr42", n:"四、利润总额", r:"37", lv:1, k:"main", f:null},
+    {c:"INDr43", n:"减：所得税费用", r:"38", lv:3, k:"item", f:null},
+    {c:"INDr44", n:"五、净利润（净亏损以“－”号填列）", r:"39", lv:1, k:"main", f:null},
+    {c:"INDr45", n:"减： * 少数股东损益", r:"40", lv:3, k:"item", f:null},
+    {c:"INDr46", n:"六、归属于母公司所有者的净利润", r:"41", lv:1, k:"main", f:null},
+    {c:"INDr47", n:"七、应上交国家利润（国家股利）", r:"42", lv:1, k:"main", f:null},
+    {c:"INDr48", n:"八、研发R&D经费投入", r:"43", lv:1, k:"main", f:null},
+    {c:"INDr49", n:"九、两金", r:"44", lv:1, k:"main", f:null},
+    {c:"INDr50", n:"其中：应收账款", r:"45", lv:3, k:"item", f:null},
+    {c:"INDr51", n:"存货", r:"46", lv:3, k:"item", f:null},
+    {c:"INDr52", n:"十、资产总额", r:"47", lv:1, k:"main", f:null},
+    {c:"INDr53", n:"十一、负债总额", r:"48", lv:1, k:"main", f:null},
+    {c:"INDr54", n:"十二、带息债务新增净额", r:"49", lv:1, k:"main", f:null},
+    {c:"INDr55", n:"其中：新增债券", r:"50", lv:3, k:"item", f:null},
+    {c:"INDr56", n:"十三、带息债务余额", r:"51", lv:1, k:"main", f:null},
+    {c:"INDr57", n:"十四、归属于母公司所有者权益 （年初年末平均值）", r:"52", lv:1, k:"main", f:null},
+    {c:"INDr58", n:"十五、经营活动产生的现金流量净额", r:"53", lv:1, k:"main", f:null},
+    {c:"INDr59", n:"十六、劳动生产总值", r:"54", lv:1, k:"main", f:null},
+    {c:"INDr60", n:"十七、从业人数  本年平均", r:"55", lv:1, k:"main", f:null},
+    {c:"INDr61", n:"其中： 职工人数  本年平均", r:"56", lv:3, k:"item", f:null},
+    {c:"INDr62", n:"十八、职工人数  本年平均", r:"57", lv:1, k:"main", f:null},
+    {c:"INDr63", n:"其中： 在岗职工人数  本年平均", r:"58", lv:3, k:"item", f:null},
+    {c:"INDr64", n:"十九、工资总额", r:"59", lv:1, k:"main", f:null},
+    {c:"INDr65", n:"二十、国有资产保值增值率（%）", r:"60", lv:1, k:"main", f:null},
+    {c:"INDr66", n:"二十一、净资产收益率（%）", r:"61", lv:1, k:"main", f:null},
+    {c:"INDr67", n:"二十二、资产负债率（%）", r:"62", lv:1, k:"main", f:null},
+    {c:"INDr68", n:"二十三、营业现金比率（%）", r:"63", lv:1, k:"main", f:null},
+    {c:"INDr69", n:"二十四、研发经费投入强度（%）", r:"64", lv:1, k:"main", f:null},
+    {c:"INDr70", n:"二十五、全员劳动生产率(万元/人)", r:"65", lv:1, k:"main", f:null},
+    {c:"INDr71", n:"二十六、投资计划项目数量", r:"66", lv:1, k:"main", f:null},
+    {c:"INDr72", n:"其中：上年度结转项目数量", r:"67", lv:3, k:"item", f:null},
+    {c:"INDr73", n:"本年度新增项目数量", r:"68", lv:3, k:"item", f:null},
+    {c:"INDr74", n:"二十七、项目计划总投资", r:"69", lv:1, k:"main", f:null},
+    {c:"INDr75", n:"其中：上年末累计完成投资额", r:"70", lv:3, k:"item", f:null},
+    {c:"INDr76", n:"1.上年末投资计划项目归属于本企业投资额", r:"71", lv:3, k:"item", f:null},
+    {c:"INDr77", n:"2.上年末战略性新兴产业项目本企业完成投资额", r:"72", lv:3, k:"item", f:null},
+    {c:"INDr78", n:"二十八、投资计划项目本年度投资额", r:"73", lv:1, k:"main", f:null},
+    {c:"INDr79", n:"1、资金来源", r:"74", lv:3, k:"item", f:null},
+    {c:"INDr80", n:"其中：企业自有资金", r:"75", lv:3, k:"item", f:null},
+    {c:"INDr81", n:"引进战略投资者资金", r:"76", lv:3, k:"item", f:null},
+    {c:"INDr82", n:"外部贷款", r:"77", lv:3, k:"item", f:null},
+    {c:"INDr83", n:"发行债券", r:"78", lv:3, k:"item", f:null},
+    {c:"INDr84", n:"其他", r:"79", lv:3, k:"item", f:null},
+    {c:"INDr85", n:"2、项目类型情况及投资额", r:"80", lv:3, k:"item", f:null},
+    {c:"INDr86", n:"其中：本年度战略性新兴产业项目数量", r:"81", lv:3, k:"item", f:null},
+    {c:"INDr87", n:"本年度战略性新兴产业项目计划投资额", r:"82", lv:3, k:"item", f:null},
+    {c:"INDr88", n:"本年度传统产业项目数量", r:"83", lv:3, k:"item", f:null},
+    {c:"INDr89", n:"本年度传统产业项目计划投资额", r:"84", lv:3, k:"item", f:null},
+    {c:"INDr90", n:"本年度基础设施产业项目数量", r:"85", lv:3, k:"item", f:null},
+    {c:"INDr91", n:"本年度基础设施产业项目计划投资额", r:"86", lv:3, k:"item", f:null},
+    {c:"INDr92", n:"本年度其他产业项目数量", r:"87", lv:3, k:"item", f:null},
+    {c:"INDr93", n:"本年度其他项目计划投资额", r:"88", lv:3, k:"item", f:null},
+    {c:"INDr94", n:"二十九、信息化建设预算", r:"89", lv:1, k:"main", f:null},
+    {c:"INDr95", n:"1.硬件设备与基础软件购置额", r:"90", lv:3, k:"item", f:null},
+    {c:"INDr96", n:"其中：国产化硬件设备与基础软件替代费用", r:"91", lv:3, k:"item", f:null},
+    {c:"INDr97", n:"2.应用系统实施项目情况及投资额", r:"92", lv:3, k:"item", f:null},
+    {c:"INDr98", n:"本年度拟实施开发项目数量（个）", r:"93", lv:3, k:"item", f:null},
+    {c:"INDr99", n:"本年度拟实施开发项目计划投资额", r:"94", lv:3, k:"item", f:null},
+    {c:"INDr100", n:"其中：业务软件开发费用", r:"95", lv:3, k:"item", f:null},
+    {c:"INDr101", n:"国产化应用系统替代费用", r:"96", lv:3, k:"item", f:null}
+    ]
+  };
+  MI.TABLES = MI.TABLES || [];
+  MI.TABLES.push(T);
+  MI.TABLE_MAP = MI.TABLE_MAP || {};
+  MI.TABLE_MAP[T.id] = T;
+  /* 补齐行索引（data.tables.js 里的 lineMap 是加载时建的，新表要自己补） */
+  MI.lineMap = MI.lineMap || {};
+  for (var i = 0; i < T.lines.length; i++) {
+    MI.lineMap[T.id + '.' + T.lines[i].c] = T.lines[i];
+  }
+  /* 按表内顺序补齐全部行（含双栏） */
+  MI.allLines = MI.allLines || function (t) { return t.lines.concat(t.lines2 || []); };
+})();

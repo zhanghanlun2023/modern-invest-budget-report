@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时数据（不进仓库）
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# 本地工具与日志
+tools/
+*.log
+_*.html
+_*.js
+_*.txt
+_*.json
+_*.xlsx
+_*.xls
+
+# 原始模板与草稿（体积大、与部署无关）
+正式模板/
+
+# 系统
+.DS_Store
+Thumbs.db

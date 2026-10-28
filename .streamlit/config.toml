@@ -1,0 +1,22 @@
+[server]
+# 允许托管 ./static/ 目录（报表页面部署包），访问路径为 /app/static/...
+enableStaticServing = true
+port = 8501
+address = "0.0.0.0"
+headless = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true
+
+[theme]
+base = "light"
+primaryColor = "#1a4d8f"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f7fb"
+textColor = "#1f2d3d"
+font = "sans serif"
