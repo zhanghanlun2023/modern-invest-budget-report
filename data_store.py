@@ -9,14 +9,36 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+import tempfile
 import threading
 from datetime import datetime, timezone, timedelta
 from typing import Any
 
-DB_PATH = os.environ.get(
-    "REPORT_DB",
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "submissions.db"),
-)
+
+def _pick_db_path() -> str:
+    """选一个可写的库路径。
+
+    Streamlit Community Cloud 的应用目录可能只读或每次重启被重置，
+    因此优先用环境变量，其次应用目录 data/，不可写则退回系统临时目录。
+    """
+    env = os.environ.get("REPORT_DB")
+    if env:
+        return env
+
+    here = os.path.dirname(os.path.abspath(__file__))
+    preferred = os.path.join(here, "data", "submissions.db")
+    try:
+        os.makedirs(os.path.dirname(preferred), exist_ok=True)
+        probe = preferred + ".wtest"
+        with open(probe, "w") as fh:
+            fh.write("x")
+        os.remove(probe)
+        return preferred
+    except Exception:  # noqa: BLE001
+        return os.path.join(tempfile.gettempdir(), "report_submissions.db")
+
+
+DB_PATH = _pick_db_path()
 
 _LOCK = threading.Lock()
 _CST = timezone(timedelta(hours=8))
